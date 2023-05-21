@@ -35,59 +35,59 @@ import profileImage from "assets/profile.jpeg";
 
 const navItems = [
     {
-        text: "Главная",
+        text: "Dashboard",
         icon: <HomeOutlined />
     },
     {
-        text: "Инструменты",
+        text: "Tools",
         icon: null,
     },
     {
-        text: "Данные",
+        text: "Products",
         icon: <ShoppingCartOutlined />
     },
     {
-        text: "Пользователи",
+        text: "Customers",
         icon: <Groups2Outlined />
     },
     {
-        text: "Транзакции",
+        text: "Transactions",
         icon: <ReceiptLongOutlined />
     },
     {
-        text: "Модули",
+        text: "Georgaphy",
         icon: <PublicOutlined />
     },
     {
-        text: "Аналитика",
+        text: "Sales",
         icon: null,
     },
     {
-        text: "Общая",
+        text: "Overview",
         icon: <PointOfSaleOutlined />
     },
     {
-        text: "Ежедневная",
+        text: "Daily",
         icon: <TodayOutlined />
     },
     {
-        text: "Месячная",
+        text: "Monthly",
         icon: <CalendarMonthOutlined />
     },
     {
-        text: "Диаграмма",
+        text: "Breakdown",
         icon: <PieChartOutlined />
     },
     {
-        text: "Администрирование",
+        text: "Management",
         icon: null,
     },
     {
-        text: "Клиенты",
+        text: "Admin",
         icon: <AdminPanelSettingsOutlined />
     },
     {
-        text: "Статистика",
+        text: "Performance",
         icon: <TrendingUpOutlined />
     },
 ]
