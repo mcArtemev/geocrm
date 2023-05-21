@@ -55,7 +55,7 @@ const navItems = [
         icon: <ReceiptLongOutlined />
     },
     {
-        text: "Georgaphy",
+        text: "Geography",
         icon: <PublicOutlined />
     },
     {
