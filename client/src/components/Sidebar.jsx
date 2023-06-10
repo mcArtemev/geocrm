@@ -36,12 +36,8 @@ import profileImage from "assets/profile.jpeg";
 const navItems = [
     {
         text: "Dashboard",
-<<<<<<< HEAD
         icon: <HomeOutlined />,
         showText: "Главная"
-=======
-        icon: <HomeOutlined />
->>>>>>> 17ca0364af80fa95ba9d99bff19ec3cf398d3e38
     },
     {
         text: "Tools",
@@ -50,7 +46,6 @@ const navItems = [
     },
     {
         text: "Products",
-<<<<<<< HEAD
         icon: <ShoppingCartOutlined />,
         showText: "Продажи"
     },
@@ -71,30 +66,11 @@ const navItems = [
     },
     {
         text: "Statistic",
-=======
-        icon: <ShoppingCartOutlined />
-    },
-    {
-        text: "Customers",
-        icon: <Groups2Outlined />
-    },
-    {
-        text: "Transactions",
-        icon: <ReceiptLongOutlined />
-    },
-    {
-        text: "Geography",
-        icon: <PublicOutlined />
-    },
-    {
-        text: "Sales",
->>>>>>> 17ca0364af80fa95ba9d99bff19ec3cf398d3e38
         icon: null,
         showText: "Статистика"
     },
     {
         text: "Overview",
-<<<<<<< HEAD
         icon: <PointOfSaleOutlined />,
         showText: "Общая"
     },
@@ -112,21 +88,6 @@ const navItems = [
         text: "Breakdown",
         icon: <PieChartOutlined />,
         showText: "Диаграммы"
-=======
-        icon: <PointOfSaleOutlined />
-    },
-    {
-        text: "Daily",
-        icon: <TodayOutlined />
-    },
-    {
-        text: "Monthly",
-        icon: <CalendarMonthOutlined />
-    },
-    {
-        text: "Breakdown",
-        icon: <PieChartOutlined />
->>>>>>> 17ca0364af80fa95ba9d99bff19ec3cf398d3e38
     },
     {
         text: "Management",
@@ -135,7 +96,6 @@ const navItems = [
     },
     {
         text: "Admin",
-<<<<<<< HEAD
         icon: <AdminPanelSettingsOutlined />,
         showText: "Сотрудники"
     },
@@ -143,13 +103,6 @@ const navItems = [
         text: "Performance",
         icon: <TrendingUpOutlined />,
         showText: "Трафик"
-=======
-        icon: <AdminPanelSettingsOutlined />
-    },
-    {
-        text: "Performance",
-        icon: <TrendingUpOutlined />
->>>>>>> 17ca0364af80fa95ba9d99bff19ec3cf398d3e38
     },
 ]
 
