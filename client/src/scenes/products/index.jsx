@@ -83,7 +83,7 @@ const Products = () => {
     
   return (
     <Box margin="1.5rem 2.5rem">
-        <Header title="PRODUCTS" subtitle="See your list of products." />
+        <Header title="ПРОДАЖИ" subtitle="Список проданных товаров" />
         {data || !isLoading 
         ? (
             <Box

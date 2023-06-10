@@ -35,60 +35,74 @@ import profileImage from "assets/profile.jpeg";
 
 const navItems = [
     {
-        text: "Главная",
-        icon: <HomeOutlined />
+        text: "Dashboard",
+        icon: <HomeOutlined />,
+        showText: "Главная"
     },
     {
-        text: "Инструменты",
+        text: "Tools",
         icon: null,
+        showText: "Инструменты"
     },
     {
-        text: "Данные",
-        icon: <ShoppingCartOutlined />
+        text: "Products",
+        icon: <ShoppingCartOutlined />,
+        showText: "Продажи"
     },
     {
-        text: "Пользователи",
-        icon: <Groups2Outlined />
+        text: "Customers",
+        icon: <Groups2Outlined />,
+        showText: "Клиенты"
     },
     {
-        text: "Транзакции",
-        icon: <ReceiptLongOutlined />
+        text: "Transactions",
+        icon: <ReceiptLongOutlined />,
+        showText: "Транзакции"
     },
     {
-        text: "Модули",
-        icon: <PublicOutlined />
+        text: "Geography",
+        icon: <PublicOutlined />,
+        showText: "Модули"
     },
     {
-        text: "Аналитика",
+        text: "Statistic",
         icon: null,
+        showText: "Статистика"
     },
     {
-        text: "Общая",
-        icon: <PointOfSaleOutlined />
+        text: "Overview",
+        icon: <PointOfSaleOutlined />,
+        showText: "Общая"
     },
     {
-        text: "Ежедневная",
-        icon: <TodayOutlined />
+        text: "Daily",
+        icon: <TodayOutlined />,
+        showText: "Ежедневная"
     },
     {
-        text: "Месячная",
-        icon: <CalendarMonthOutlined />
+        text: "Monthly",
+        icon: <CalendarMonthOutlined />,
+        showText: "Месячная"
     },
     {
-        text: "Диаграмма",
-        icon: <PieChartOutlined />
+        text: "Breakdown",
+        icon: <PieChartOutlined />,
+        showText: "Диаграммы"
     },
     {
-        text: "Администрирование",
+        text: "Management",
         icon: null,
+        showText: "Администрирование"
     },
     {
-        text: "Клиенты",
-        icon: <AdminPanelSettingsOutlined />
+        text: "Admin",
+        icon: <AdminPanelSettingsOutlined />,
+        showText: "Сотрудники"
     },
     {
-        text: "Статистика",
-        icon: <TrendingUpOutlined />
+        text: "Performance",
+        icon: <TrendingUpOutlined />,
+        showText: "Трафик"
     },
 ]
 
@@ -143,11 +157,11 @@ const Sidebar = ({
                         </FlexBetween>
                     </Box>
                     <List>
-                        {navItems.map(({ text, icon }) => {
+                        {navItems.map(({ text, icon, showText }) => {
                             if (!icon) {
                                 return (
                                     <Typography key={text} sx={{margin: "2.25rem 0 1rem 3rem"}}>
-                                        {text}
+                                        {showText}
                                     </Typography>
                                 )
                             }
@@ -178,7 +192,7 @@ const Sidebar = ({
                                         >
                                             {icon}
                                         </ListItemIcon>
-                                        <ListItemText primary={text} />
+                                        <ListItemText primary={showText} />
                                         {active === lcText && (
                                             <ChevronRightOutlined 
                                                 sx={{
@@ -220,7 +234,7 @@ const Sidebar = ({
                             </Typography>
                         </Box>
                         <SettingsOutlined 
-                            sx={{ ccolor: theme.palette.secondary[200], fontSize: "25px" }}
+                            sx={{ color: theme.palette.secondary[200], fontSize: "25px" }}
                         />
                     </FlexBetween>
                 </Box>

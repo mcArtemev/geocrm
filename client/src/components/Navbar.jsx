@@ -56,7 +56,7 @@ const Navbar = ({
                         gap="3rem"
                         padding="0.1rem 1rem"
                     >
-                        <InputBase placeholder="Search..." />
+                        <InputBase placeholder="Поиск..." />
                         <IconButton>
                             <Search />
                         </IconButton>
@@ -120,7 +120,7 @@ const Navbar = ({
                             onClose={handleClose} 
                             anchorOrigin={{ vertical: "bottom", horizontal: "center"}}
                         >
-                            <MenuItem onClick={handleClose}>Log Out</MenuItem>
+                            <MenuItem onClick={handleClose}>Выход</MenuItem>
                         </Menu>
                     </FlexBetween>
                 </FlexBetween>

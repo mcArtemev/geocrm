@@ -52,7 +52,7 @@ const Admin = () => {
 
   return (
     <Box margin="1.5rem 2.5rem">
-        <Header title="ADMINS" subtitle="Managing admins and list of admins" />
+        <Header title="СОТРУДНИКИ" subtitle="Список сотрудников" />
         <Box
             marginTop="40px"
             height="80vh"

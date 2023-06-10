@@ -40,7 +40,7 @@ const Monthly = () => {
 
   return (
     <Box m="1.5rem 2.5rem">
-      <Header title="MONTHLY SALES" subtitle="Chart of monthly sales" />
+      <Header title="МЕСЯЧНАЯ" subtitle="Месячная статистика продаж" />
       <Box height="75vh">
 
         {data ? (

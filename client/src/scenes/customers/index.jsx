@@ -54,7 +54,7 @@ const Customers = () => {
 
   return (
     <Box margin="1.5rem 2.5rem">
-        <Header title="CUSTOMERS" subtitle="List of Customers" />
+        <Header title="КЛИЕНТЫ" subtitle="Список клиентов" />
         <Box
             marginTop="40px"
             height="80vh"

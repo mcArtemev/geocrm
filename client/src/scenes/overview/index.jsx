@@ -8,7 +8,7 @@ const Overview = () => {
     
   return (
     <Box margin="1.5rem 2.5rem">
-        <Header title="OVERVIEW" subtitle="Overview of general revenue and profit" />
+        <Header title="Общая" subtitle="Общая статистика прибыли" />
         <Box height="75vh">
             <FormControl sx={{
                 marginTop: "1rem"
